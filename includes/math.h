@@ -27,11 +27,6 @@ namespace math {
         float rad = atan2(delta_y, delta_x);
         return rad_to_deg(rad);
     }
-
-    static float get_rand()
-    {
-        return rand() / float(RAND_MAX);
-    }
 }
 
 #endif
